@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .container {
+    border: 5px solid yellowgreen;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container > div {
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #ffeadf;
+    border: 2px solid;
+    background-color: green;
+
+}
+.logo {
+    margin-right: auto;
+}
+
+.oke {flex-direction: row; 
+    display: flex;}
+.oke > div {
+    display: flex;
+    flex: 1;
+    align-content: center; 
+    justify-content: center;
+}
+.Tabelok {border: 5px solid black;
+}
+        </style>
+        <title>WEB TEST</title>
+        </head>
+    <body>
+        <header>
+            <h1>Form Belajar</h1>
+            <p>Ini adalah website latihan pertama</p>
+        </header>
+        <nav class="container">
+            <img src="IMAGES/tESSSAS.png" class="logo" width="40" height="40">
+            <div class="Home">Home</div>
+            <div class="Search">Search</div>
+            <div class="Logout">Logout</div>
+        </nav>
+        <main class="OKE" style="flex-direction: row; display: flex;">
+           
+            <div style="display: flex;flex: 1;align-content: center; justify-content: center;">
+           
+                <h2>Ini Form</h2>
+            
+            </div>
+           
+            <div style="display: flex;flex: 1;align-content: center; justify-content: center;">
+            
+                <h2>Ini Table</h2>
+                <table class="Tabelok">
+                    <tr>
+                        <th>Nama</th>
+                        <th>Tanggal Lahir</th>
+                        <th>Jenis Kelamin</th>
+                        <th>Pesan</th>
+                        <th>Profile</th>
+                        <th>Hapus</th>
+                    </tr>
+                    <tr>
+                        <td>Alex</td>
+                        <td>12 Agustus</td>
+                        <td>Laki-Laki</td>
+                        <td>Haloo</td>
+                        <td><a href="">Klik disini</a></td>
+                        <td>gambar</td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </body>
+</html>
